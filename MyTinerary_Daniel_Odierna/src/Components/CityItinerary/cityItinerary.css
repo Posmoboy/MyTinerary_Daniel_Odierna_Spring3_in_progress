@@ -1,0 +1,11 @@
+.cityItineraryContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.locationIcon{
+    height: 50px;
+    width: 50px;
+}
