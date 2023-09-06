@@ -7,7 +7,6 @@ import { useState } from 'react';
 
 const ImageCarousel = () => {
 
-
   const imagesSlides = [
     {
       src: '/img/ImageCarousel/igor-oliyarnik-Uu5aXBI1oLk-unsplash.jpg',
@@ -60,22 +59,13 @@ const ImageCarousel = () => {
 
   ];
 
-
-
-
   const [currentSlide, setCurrentSlide] = useState(0);
-
-
-
-
 
   const handlePrev = () => {
     if (currentSlide !== 0) {
       setCurrentSlide(currentSlide - 1);
     }
   };
-
-
 
   const handleNext = () => {
     if (currentSlide === imagesSlides.length - 1) {
@@ -85,6 +75,8 @@ const ImageCarousel = () => {
     }
 
   };
+
+  
 
 
 

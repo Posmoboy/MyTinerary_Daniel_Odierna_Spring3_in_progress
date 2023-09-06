@@ -68,6 +68,7 @@ h2 {
 
 .pHero,
 .texto-encima {
+  color: #0af312;
   background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
   border: 1;
   border-radius: 10px;

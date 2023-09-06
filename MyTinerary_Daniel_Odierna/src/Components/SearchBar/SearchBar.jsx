@@ -142,15 +142,15 @@ const CitiesList = [
 
 ];
 
-const CitiesMongo = () => {
-    const params = useParam()
-    console.log(params)
-    const [citiesM, setCitiesM] = useState()
-    useEffect(() => {
-        axios('http://localhost:5173/api/cities')
-        .then(res => setCitiesM(res.data.response))
-    }, [] )
-}
+// const CitiesMongo = () => {
+//     const params = useParam()
+//     console.log(params)
+//     const [citiesM, setCitiesM] = useState()
+//     useEffect(() => {
+//         axios('http://localhost:5173/api/cities')
+//         .then(res => setCitiesM(res.data.response))
+//     }, [] )
+// }
 
 
 const SearchBar = () => {
@@ -182,7 +182,7 @@ return val;
             <div className='template' key={val.id}>
                 <h5>Detalles de la ciudad</h5>
                     <p>Name: {val.name}</p>
-                    <img src={val.img} width={100} height={100} alt="" />                 
+                    <img className="citiesSearchimgs" src={val.img}  alt= {val.name} />                 
                     <p>Country: {val.country}</p>
                    <p>Population: {val.population}</p>
                  <p>Currency: {val.currency}</p>

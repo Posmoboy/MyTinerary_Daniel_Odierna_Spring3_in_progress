@@ -32,8 +32,12 @@ a {
 
 .MytiLogo {
    display: flex;
-   float: left;
+   flex-direction: column;
+  height:auto;
+   
 
+   
+   
 }
 
 

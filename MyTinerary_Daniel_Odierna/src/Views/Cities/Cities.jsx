@@ -3,18 +3,20 @@ import MainLayout from '../../Components/MainLayout/MainLayout'
 import './cities.css'
 import SearchBar from '../../Components/SearchBar/SearchBar'
 
+import { Outlet } from 'react-router-dom'
+
+
+
 
 const Cities = () => {
   return (
-    <MainLayout>
-   
+    
+   <MainLayout>
     <div className='LayoutCities'>
         <SearchBar/>
-        {/* <CityItinerary/> */}
         
+        <Outlet />
     </div>
-
-   
     </MainLayout>
   )
 }

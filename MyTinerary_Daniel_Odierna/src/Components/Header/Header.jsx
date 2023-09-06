@@ -8,7 +8,7 @@ const Header = () => {
     <header className='headerNav'>
     <div >
         <div >
-            <img className='MytiLogo' src="\img\LogoMyTinerary1.png" alt="Mytinerary Logo" height="150px" width="300px" />
+            <img className='MytiLogo' src="\img\LogoMyTinerary1.png" alt="Mytinerary Logo" />
         </div>
 
 

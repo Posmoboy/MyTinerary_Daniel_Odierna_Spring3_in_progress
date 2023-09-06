@@ -6,6 +6,7 @@ import { Outlet } from 'react-router-dom'
 import MainLayout from '../../Components/MainLayout/MainLayout'
 
 
+
 const Home = () => {
     return (
      <MainLayout>

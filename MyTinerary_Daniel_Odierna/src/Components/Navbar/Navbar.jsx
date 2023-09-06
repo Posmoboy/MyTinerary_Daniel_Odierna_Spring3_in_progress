@@ -16,7 +16,7 @@ function Navbar() {
                 <button type="button" className="mainButton">Cities</button>
                 </Anchor>
 
-                <Anchor to ={""}>
+                <Anchor to ={"/login"}>
                
                     <button type="button" className="mainButtonLogin">Login</button>
                 </Anchor>
